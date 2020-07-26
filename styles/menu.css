@@ -1,0 +1,153 @@
+body {
+    margin-left: 0px;
+    margin-top: 0px;
+    background-image: url('https://static.zara.net/photos//mkt/spots/ss20-south-new-in-woman/subhome-xmedia-28//landscape_0.jpg?ts=1594218774212&imwidth=1920');
+}
+
+.desktop-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.desktop-menu-actions {
+    transition: left .7s;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: white;
+    left: -50em;
+    height: 100%;
+    margin-top: -50px;
+    padding-left: 32px;
+    padding-right: 43px;
+    width: 246px;
+}
+
+.mobile-menu-actions {
+    display: none;
+}
+
+.icon-svg {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.menu-dropdown:hover .desktop-menu-actions {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: white;
+    left: 0;
+}
+
+.desktop-header:hover .menu-list {
+    color: black;
+}
+
+.menu-list {
+    padding-left: 8px;
+    color: white;
+    max-width: inherit;
+    text-decoration: none;
+    font-size: 36px;
+    letter-spacing: .4px;
+    font-stretch: condensed;
+    font-weight: 700;
+    line-height: 44px;
+    font-family: Neue-Helvetica, Arial, sans-serif;
+    white-space: normal;
+}
+
+.menu-list-container {
+    display: flex;
+    padding: 82px 15px 0px 0px;
+    flex-direction: column;
+}
+
+.menu-dropdown {
+    margin-top: 7px;
+    margin-left: 20px;
+    height: 32px;
+}
+
+.joinlife {
+}
+
+.blank-div-header {
+
+}
+
+.menuNlogo {
+    display: flex;
+    justify-content: start;
+    align-content: center;
+    margin-top: 42px;
+}
+
+.logo > p {
+    margin-left: 20px;
+    font-size: 45px;
+    letter-spacing: .5px;
+    font-stretch: condensed;
+    font-weight: 500;
+    line-height: 44px;
+    font-family: Neue-Helvetica, Arial, sans-serif;
+    white-space: normal;
+    color: white;
+    margin-top: 0px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search p {
+    color: white;
+    font-size: 22px;
+    letter-spacing: .3px;
+    font-stretch: 75%;
+    font-weight: 700;
+    line-height: 44px;
+    font-family: Neue-Helvetica, Arial, sans-serif;
+    white-space: nowrap;
+}
+
+.search input {
+    background-color: transparent;
+    border: none;
+    border-bottom: solid white;
+    border-width: thin;
+    margin-left: 10px;
+    color: white;
+}
+
+
+.login-ayuda-carrito {
+    display: flex;
+}
+
+.login-ayuda-carrito > * {
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.login-ayuda-carrito a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-stretch: condensed;
+    font-weight: 5300;
+    line-height: 44px;
+    font-family: Neue-Helvetica, Arial, sans-serif;
+    white-space: normal;
+}
+
+.cart-icon {
+    padding-top: 9px;
+}
